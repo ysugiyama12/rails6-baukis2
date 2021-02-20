@@ -72,3 +72,8 @@ yarn-debug.log*
 /storage/*
 !/storage/.keep
 /public/uploads
+
+apps/baukis2/tmp/*
+apps/baukis2/log/*
+
+!.gitkeep
