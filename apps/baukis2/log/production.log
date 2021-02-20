@@ -1,0 +1,665 @@
+D, [2021-02-20T01:22:01.965346 #4838] DEBUG -- :   [1m[35m (3345.3ms)[0m  [1m[35mCREATE DATABASE "baukis2_production" ENCODING = 'unicode'[0m
+I, [2021-02-20T01:26:09.752151 #4956]  INFO -- : [25857ad3-6237-4f2d-9d38-acdcd82d5f37] Started GET "/staff" for 172.19.0.1 at 2021-02-20 01:26:09 +0000
+I, [2021-02-20T01:26:09.756712 #4956]  INFO -- : [25857ad3-6237-4f2d-9d38-acdcd82d5f37] Processing by Staff::TopController#index as HTML
+I, [2021-02-20T01:26:09.766433 #4956]  INFO -- : [25857ad3-6237-4f2d-9d38-acdcd82d5f37]   Rendering staff/top/index.html.erb within layouts/staff
+I, [2021-02-20T01:26:09.769428 #4956]  INFO -- : [25857ad3-6237-4f2d-9d38-acdcd82d5f37]   Rendered staff/top/index.html.erb within layouts/staff (Duration: 1.7ms | Allocations: 134)
+I, [2021-02-20T01:26:09.774433 #4956]  INFO -- : [25857ad3-6237-4f2d-9d38-acdcd82d5f37]   Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 85)
+I, [2021-02-20T01:26:09.777605 #4956]  INFO -- : [25857ad3-6237-4f2d-9d38-acdcd82d5f37]   Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 84)
+I, [2021-02-20T01:26:09.779325 #4956]  INFO -- : [25857ad3-6237-4f2d-9d38-acdcd82d5f37] Completed 200 OK in 21ms (Views: 15.7ms | Allocations: 2811)
+I, [2021-02-20T01:26:14.204492 #4956]  INFO -- : [ae24003e-86a3-4e45-8e65-d61bac084158] Started GET "/admin" for 172.19.0.1 at 2021-02-20 01:26:14 +0000
+I, [2021-02-20T01:26:14.206279 #4956]  INFO -- : [ae24003e-86a3-4e45-8e65-d61bac084158] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T01:26:14.210615 #4956]  INFO -- : [ae24003e-86a3-4e45-8e65-d61bac084158] Completed 500 Internal Server Error in 3ms (Allocations: 1742)
+F, [2021-02-20T01:26:14.212211 #4956] FATAL -- : [ae24003e-86a3-4e45-8e65-d61bac084158]   
+[ae24003e-86a3-4e45-8e65-d61bac084158] ActionView::MissingTemplate (Missing template layouts/admin with {:locale=>[:ja], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/apps/baukis2/app/views"
+  * "/usr/local/bundle/gems/kaminari-core-1.2.1/app/views"
+  * "/usr/local/bundle/gems/actiontext-6.0.3.5/app/views"
+  * "/usr/local/bundle/gems/actionmailbox-6.0.3.5/app/views"
+):
+[ae24003e-86a3-4e45-8e65-d61bac084158]   
+[ae24003e-86a3-4e45-8e65-d61bac084158] app/controllers/admin/top_controller.rb:3:in `index'
+I, [2021-02-20T01:26:18.561433 #4956]  INFO -- : [5f8697bb-a2ba-499a-8b48-ffb8793ffb1f] Started GET "/staff" for 172.19.0.1 at 2021-02-20 01:26:18 +0000
+I, [2021-02-20T01:26:18.563607 #4956]  INFO -- : [5f8697bb-a2ba-499a-8b48-ffb8793ffb1f] Processing by Staff::TopController#index as HTML
+I, [2021-02-20T01:26:18.566290 #4956]  INFO -- : [5f8697bb-a2ba-499a-8b48-ffb8793ffb1f]   Rendering staff/top/index.html.erb within layouts/staff
+I, [2021-02-20T01:26:18.567997 #4956]  INFO -- : [5f8697bb-a2ba-499a-8b48-ffb8793ffb1f]   Rendered staff/top/index.html.erb within layouts/staff (Duration: 0.6ms | Allocations: 7)
+I, [2021-02-20T01:26:18.570304 #4956]  INFO -- : [5f8697bb-a2ba-499a-8b48-ffb8793ffb1f]   Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+I, [2021-02-20T01:26:18.572319 #4956]  INFO -- : [5f8697bb-a2ba-499a-8b48-ffb8793ffb1f]   Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-02-20T01:26:18.573912 #4956]  INFO -- : [5f8697bb-a2ba-499a-8b48-ffb8793ffb1f] Completed 200 OK in 9ms (Views: 8.0ms | Allocations: 790)
+I, [2021-02-20T01:53:27.685115 #5198]  INFO -- : [03ffc7a8-896d-4b54-97b2-ea9e531bd161] Started GET "/customer" for 172.19.0.1 at 2021-02-20 01:53:27 +0000
+I, [2021-02-20T01:53:27.689369 #5198]  INFO -- : [03ffc7a8-896d-4b54-97b2-ea9e531bd161] Processing by Customer::TopController#index as HTML
+I, [2021-02-20T01:53:27.699265 #5198]  INFO -- : [03ffc7a8-896d-4b54-97b2-ea9e531bd161]   Rendering customer/top/index.html.erb within layouts/customer
+I, [2021-02-20T01:53:27.701327 #5198]  INFO -- : [03ffc7a8-896d-4b54-97b2-ea9e531bd161]   Rendered customer/top/index.html.erb within layouts/customer (Duration: 1.2ms | Allocations: 134)
+I, [2021-02-20T01:53:27.704991 #5198]  INFO -- : [03ffc7a8-896d-4b54-97b2-ea9e531bd161]   Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 85)
+I, [2021-02-20T01:53:27.706774 #5198]  INFO -- : [03ffc7a8-896d-4b54-97b2-ea9e531bd161]   Rendered shared/_footer.html.erb (Duration: 0.8ms | Allocations: 84)
+I, [2021-02-20T01:53:27.707872 #5198]  INFO -- : [03ffc7a8-896d-4b54-97b2-ea9e531bd161] Completed 200 OK in 17ms (Views: 11.9ms | Allocations: 2803)
+I, [2021-02-20T01:53:30.705183 #5198]  INFO -- : [481cd94b-f108-45c9-9681-3569d1c8f156] Started GET "/admin" for 172.19.0.1 at 2021-02-20 01:53:30 +0000
+I, [2021-02-20T01:53:30.708450 #5198]  INFO -- : [481cd94b-f108-45c9-9681-3569d1c8f156] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T01:53:30.712708 #5198]  INFO -- : [481cd94b-f108-45c9-9681-3569d1c8f156]   Rendering admin/top/index.html.erb within layouts/admin
+I, [2021-02-20T01:53:30.717633 #5198]  INFO -- : [481cd94b-f108-45c9-9681-3569d1c8f156]   Rendered admin/top/index.html.erb within layouts/admin (Duration: 3.1ms | Allocations: 110)
+I, [2021-02-20T01:53:30.722744 #5198]  INFO -- : [481cd94b-f108-45c9-9681-3569d1c8f156]   Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+I, [2021-02-20T01:53:30.724259 #5198]  INFO -- : [481cd94b-f108-45c9-9681-3569d1c8f156]   Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+I, [2021-02-20T01:53:30.725776 #5198]  INFO -- : [481cd94b-f108-45c9-9681-3569d1c8f156] Completed 200 OK in 16ms (Views: 14.9ms | Allocations: 1534)
+I, [2021-02-20T01:53:34.754667 #5198]  INFO -- : [a33165f9-2508-43af-91a8-1ac57a807457] Started GET "/staff" for 172.19.0.1 at 2021-02-20 01:53:34 +0000
+I, [2021-02-20T01:53:34.756416 #5198]  INFO -- : [a33165f9-2508-43af-91a8-1ac57a807457] Processing by Staff::TopController#index as HTML
+I, [2021-02-20T01:53:34.759823 #5198]  INFO -- : [a33165f9-2508-43af-91a8-1ac57a807457]   Rendering staff/top/index.html.erb within layouts/staff
+I, [2021-02-20T01:53:34.762280 #5198]  INFO -- : [a33165f9-2508-43af-91a8-1ac57a807457]   Rendered staff/top/index.html.erb within layouts/staff (Duration: 1.5ms | Allocations: 111)
+I, [2021-02-20T01:53:34.765912 #5198]  INFO -- : [a33165f9-2508-43af-91a8-1ac57a807457]   Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+I, [2021-02-20T01:53:34.767128 #5198]  INFO -- : [a33165f9-2508-43af-91a8-1ac57a807457]   Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+I, [2021-02-20T01:53:34.768701 #5198]  INFO -- : [a33165f9-2508-43af-91a8-1ac57a807457] Completed 200 OK in 11ms (Views: 10.2ms | Allocations: 1541)
+I, [2021-02-20T01:53:39.437037 #5198]  INFO -- : [fb850af0-eb39-4a10-a187-cd28f43c8d4e] Started GET "/customer" for 172.19.0.1 at 2021-02-20 01:53:39 +0000
+I, [2021-02-20T01:53:39.438718 #5198]  INFO -- : [fb850af0-eb39-4a10-a187-cd28f43c8d4e] Processing by Customer::TopController#index as HTML
+I, [2021-02-20T01:53:39.440689 #5198]  INFO -- : [fb850af0-eb39-4a10-a187-cd28f43c8d4e]   Rendering customer/top/index.html.erb within layouts/customer
+I, [2021-02-20T01:53:39.442027 #5198]  INFO -- : [fb850af0-eb39-4a10-a187-cd28f43c8d4e]   Rendered customer/top/index.html.erb within layouts/customer (Duration: 0.1ms | Allocations: 7)
+I, [2021-02-20T01:53:39.443491 #5198]  INFO -- : [fb850af0-eb39-4a10-a187-cd28f43c8d4e]   Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+I, [2021-02-20T01:53:39.444406 #5198]  INFO -- : [fb850af0-eb39-4a10-a187-cd28f43c8d4e]   Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-02-20T01:53:39.445188 #5198]  INFO -- : [fb850af0-eb39-4a10-a187-cd28f43c8d4e] Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 790)
+I, [2021-02-20T08:41:54.675843 #5257]  INFO -- : [33ea5b20-dbc7-4f2a-aae4-1b3da6bd90ec] Started GET "/staff" for 172.19.0.1 at 2021-02-20 08:41:54 +0000
+I, [2021-02-20T08:41:54.690508 #5257]  INFO -- : [33ea5b20-dbc7-4f2a-aae4-1b3da6bd90ec] Processing by Staff::TopController#index as HTML
+I, [2021-02-20T08:41:54.696841 #5257]  INFO -- : [33ea5b20-dbc7-4f2a-aae4-1b3da6bd90ec] Completed 500 Internal Server Error in 5ms (Allocations: 391)
+F, [2021-02-20T08:41:54.698463 #5257] FATAL -- : [33ea5b20-dbc7-4f2a-aae4-1b3da6bd90ec]   
+[33ea5b20-dbc7-4f2a-aae4-1b3da6bd90ec] RuntimeError ():
+[33ea5b20-dbc7-4f2a-aae4-1b3da6bd90ec]   
+[33ea5b20-dbc7-4f2a-aae4-1b3da6bd90ec] app/controllers/staff/top_controller.rb:3:in `index'
+I, [2021-02-20T08:50:35.384159 #5392]  INFO -- : [367f0ffe-615f-4c3f-a7ae-0203650c1979] Started GET "/staff" for 172.19.0.1 at 2021-02-20 08:50:35 +0000
+I, [2021-02-20T08:50:35.396399 #5392]  INFO -- : [367f0ffe-615f-4c3f-a7ae-0203650c1979] Processing by Staff::TopController#index as HTML
+I, [2021-02-20T08:50:35.405991 #5392]  INFO -- : [367f0ffe-615f-4c3f-a7ae-0203650c1979]   Rendering errors/internal_server_error.html.erb within layouts/staff
+I, [2021-02-20T08:50:35.409310 #5392]  INFO -- : [367f0ffe-615f-4c3f-a7ae-0203650c1979]   Rendered errors/internal_server_error.html.erb within layouts/staff (Duration: 2.4ms | Allocations: 106)
+I, [2021-02-20T08:50:35.414528 #5392]  INFO -- : [367f0ffe-615f-4c3f-a7ae-0203650c1979]   Rendered shared/_header.html.erb (Duration: 1.8ms | Allocations: 85)
+I, [2021-02-20T08:50:35.417087 #5392]  INFO -- : [367f0ffe-615f-4c3f-a7ae-0203650c1979]   Rendered shared/_footer.html.erb (Duration: 1.2ms | Allocations: 84)
+I, [2021-02-20T08:50:35.418677 #5392]  INFO -- : [367f0ffe-615f-4c3f-a7ae-0203650c1979] Completed 500 Internal Server Error in 21ms (Views: 16.1ms | Allocations: 2282)
+I, [2021-02-20T08:50:38.425511 #5392]  INFO -- : [96a783fd-ced3-4a46-b348-580a975c0aca] Started GET "/admin" for 172.19.0.1 at 2021-02-20 08:50:38 +0000
+I, [2021-02-20T08:50:38.438927 #5392]  INFO -- : [96a783fd-ced3-4a46-b348-580a975c0aca] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T08:50:38.442757 #5392]  INFO -- : [96a783fd-ced3-4a46-b348-580a975c0aca]   Rendering admin/top/index.html.erb within layouts/admin
+I, [2021-02-20T08:50:38.446108 #5392]  INFO -- : [96a783fd-ced3-4a46-b348-580a975c0aca]   Rendered admin/top/index.html.erb within layouts/admin (Duration: 1.8ms | Allocations: 113)
+I, [2021-02-20T08:50:38.450334 #5392]  INFO -- : [96a783fd-ced3-4a46-b348-580a975c0aca]   Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+I, [2021-02-20T08:50:38.452064 #5392]  INFO -- : [96a783fd-ced3-4a46-b348-580a975c0aca]   Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-02-20T08:50:38.453338 #5392]  INFO -- : [96a783fd-ced3-4a46-b348-580a975c0aca] Completed 200 OK in 13ms (Views: 12.2ms | Allocations: 1549)
+I, [2021-02-20T08:50:46.512142 #5392]  INFO -- : [8776a765-1ce6-40f9-b300-0fa6d439218e] Started GET "/aa" for 172.19.0.1 at 2021-02-20 08:50:46 +0000
+F, [2021-02-20T08:50:46.521639 #5392] FATAL -- : [8776a765-1ce6-40f9-b300-0fa6d439218e]   
+[8776a765-1ce6-40f9-b300-0fa6d439218e] ActionController::RoutingError (No route matches [GET] "/aa"):
+[8776a765-1ce6-40f9-b300-0fa6d439218e]   
+[8776a765-1ce6-40f9-b300-0fa6d439218e] actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+[8776a765-1ce6-40f9-b300-0fa6d439218e] puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2021-02-20T08:59:13.813937 #5392]  INFO -- : [ece9b856-db0c-471c-90bf-f04390ff0c91] Started GET "/admin" for 172.19.0.1 at 2021-02-20 08:59:13 +0000
+I, [2021-02-20T08:59:13.976262 #5392]  INFO -- : [ece9b856-db0c-471c-90bf-f04390ff0c91] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T08:59:13.980083 #5392]  INFO -- : [ece9b856-db0c-471c-90bf-f04390ff0c91]   Rendering errors/forbidden.html.erb within layouts/admin
+I, [2021-02-20T08:59:13.991345 #5392]  INFO -- : [ece9b856-db0c-471c-90bf-f04390ff0c91]   Rendered errors/forbidden.html.erb within layouts/admin (Duration: 10.3ms | Allocations: 1817)
+I, [2021-02-20T08:59:13.992451 #5392]  INFO -- : [ece9b856-db0c-471c-90bf-f04390ff0c91] Completed 500 Internal Server Error in 15ms (Allocations: 2667)
+F, [2021-02-20T08:59:13.996173 #5392] FATAL -- : [ece9b856-db0c-471c-90bf-f04390ff0c91]   
+[ece9b856-db0c-471c-90bf-f04390ff0c91] ActionView::Template::Error (uninitialized constant ApplicationController::IpAdressRejected
+Did you mean?  ApplicationController::IpAddressRejected):
+[ece9b856-db0c-471c-90bf-f04390ff0c91]     3:     <p>
+[ece9b856-db0c-471c-90bf-f04390ff0c91]     4:         <%= 
+[ece9b856-db0c-471c-90bf-f04390ff0c91]     5:             case @exception
+[ece9b856-db0c-471c-90bf-f04390ff0c91]     6:             when ApplicationController::IpAdressRejected
+[ece9b856-db0c-471c-90bf-f04390ff0c91]     7:                 "あなたのIPアドレス（#{request.ip}）からは利用できません。"
+[ece9b856-db0c-471c-90bf-f04390ff0c91]     8: 
+[ece9b856-db0c-471c-90bf-f04390ff0c91]     9:             else
+[ece9b856-db0c-471c-90bf-f04390ff0c91]   
+[ece9b856-db0c-471c-90bf-f04390ff0c91] app/views/errors/forbidden.html.erb:6
+[ece9b856-db0c-471c-90bf-f04390ff0c91] app/controllers/application_controller.rb:25:in `rescue403'
+I, [2021-02-20T08:59:14.687293 #5392]  INFO -- : [a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] Started GET "/ad,om" for 172.19.0.1 at 2021-02-20 08:59:14 +0000
+F, [2021-02-20T08:59:14.697896 #5392] FATAL -- : [a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd]   
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] ActionController::RoutingError (No route matches [GET] "/ad,om"):
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd]   
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+[a8411dd8-bd6f-44bc-b2a4-0cbeaf5451bd] puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2021-02-20T09:00:02.096796 #5516]  INFO -- : [2660b251-c1f2-4ca5-9c53-ba957dadf790] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:00:02 +0000
+I, [2021-02-20T09:00:02.107252 #5516]  INFO -- : [2660b251-c1f2-4ca5-9c53-ba957dadf790] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:00:02.116834 #5516]  INFO -- : [2660b251-c1f2-4ca5-9c53-ba957dadf790]   Rendering errors/forbidden.html.erb within layouts/admin
+I, [2021-02-20T09:00:02.125536 #5516]  INFO -- : [2660b251-c1f2-4ca5-9c53-ba957dadf790]   Rendered errors/forbidden.html.erb within layouts/admin (Duration: 7.7ms | Allocations: 1838)
+I, [2021-02-20T09:00:02.126676 #5516]  INFO -- : [2660b251-c1f2-4ca5-9c53-ba957dadf790] Completed 500 Internal Server Error in 18ms (Allocations: 2894)
+F, [2021-02-20T09:00:02.129462 #5516] FATAL -- : [2660b251-c1f2-4ca5-9c53-ba957dadf790]   
+[2660b251-c1f2-4ca5-9c53-ba957dadf790] ActionView::Template::Error (uninitialized constant ApplicationController::IpAdressRejected
+Did you mean?  ApplicationController::IpAddressRejected):
+[2660b251-c1f2-4ca5-9c53-ba957dadf790]     3:     <p>
+[2660b251-c1f2-4ca5-9c53-ba957dadf790]     4:         <%= 
+[2660b251-c1f2-4ca5-9c53-ba957dadf790]     5:             case @exception
+[2660b251-c1f2-4ca5-9c53-ba957dadf790]     6:             when ApplicationController::IpAdressRejected
+[2660b251-c1f2-4ca5-9c53-ba957dadf790]     7:                 "あなたのIPアドレス（#{request.ip}）からは利用できません。"
+[2660b251-c1f2-4ca5-9c53-ba957dadf790]     8: 
+[2660b251-c1f2-4ca5-9c53-ba957dadf790]     9:             else
+[2660b251-c1f2-4ca5-9c53-ba957dadf790]   
+[2660b251-c1f2-4ca5-9c53-ba957dadf790] app/views/errors/forbidden.html.erb:6
+[2660b251-c1f2-4ca5-9c53-ba957dadf790] app/controllers/application_controller.rb:25:in `rescue403'
+I, [2021-02-20T09:00:07.665382 #5516]  INFO -- : [6c984cd5-fbd3-4008-ab37-0a8aacd66ed8] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:00:07 +0000
+I, [2021-02-20T09:00:07.674147 #5516]  INFO -- : [6c984cd5-fbd3-4008-ab37-0a8aacd66ed8] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:00:07.675670 #5516]  INFO -- : [6c984cd5-fbd3-4008-ab37-0a8aacd66ed8]   Rendering errors/forbidden.html.erb within layouts/admin
+I, [2021-02-20T09:00:07.681953 #5516]  INFO -- : [6c984cd5-fbd3-4008-ab37-0a8aacd66ed8]   Rendered errors/forbidden.html.erb within layouts/admin (Duration: 5.7ms | Allocations: 1688)
+I, [2021-02-20T09:00:07.683055 #5516]  INFO -- : [6c984cd5-fbd3-4008-ab37-0a8aacd66ed8] Completed 500 Internal Server Error in 8ms (Allocations: 2088)
+F, [2021-02-20T09:00:07.685355 #5516] FATAL -- : [6c984cd5-fbd3-4008-ab37-0a8aacd66ed8]   
+[6c984cd5-fbd3-4008-ab37-0a8aacd66ed8] ActionView::Template::Error (uninitialized constant ApplicationController::IpAdressRejected
+Did you mean?  ApplicationController::IpAddressRejected):
+[6c984cd5-fbd3-4008-ab37-0a8aacd66ed8]     3:     <p>
+[6c984cd5-fbd3-4008-ab37-0a8aacd66ed8]     4:         <%= 
+[6c984cd5-fbd3-4008-ab37-0a8aacd66ed8]     5:             case @exception
+[6c984cd5-fbd3-4008-ab37-0a8aacd66ed8]     6:             when ApplicationController::IpAdressRejected
+[6c984cd5-fbd3-4008-ab37-0a8aacd66ed8]     7:                 "あなたのIPアドレス（#{request.ip}）からは利用できません。"
+[6c984cd5-fbd3-4008-ab37-0a8aacd66ed8]     8: 
+[6c984cd5-fbd3-4008-ab37-0a8aacd66ed8]     9:             else
+[6c984cd5-fbd3-4008-ab37-0a8aacd66ed8]   
+[6c984cd5-fbd3-4008-ab37-0a8aacd66ed8] app/views/errors/forbidden.html.erb:6
+[6c984cd5-fbd3-4008-ab37-0a8aacd66ed8] app/controllers/application_controller.rb:25:in `rescue403'
+I, [2021-02-20T09:00:12.483253 #5516]  INFO -- : [5fbb7372-4259-4277-a56d-5fadf7077751] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:00:12 +0000
+I, [2021-02-20T09:00:12.492100 #5516]  INFO -- : [5fbb7372-4259-4277-a56d-5fadf7077751] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:00:12.494281 #5516]  INFO -- : [5fbb7372-4259-4277-a56d-5fadf7077751]   Rendering errors/forbidden.html.erb within layouts/admin
+I, [2021-02-20T09:00:12.500974 #5516]  INFO -- : [5fbb7372-4259-4277-a56d-5fadf7077751]   Rendered errors/forbidden.html.erb within layouts/admin (Duration: 5.8ms | Allocations: 1688)
+I, [2021-02-20T09:00:12.502088 #5516]  INFO -- : [5fbb7372-4259-4277-a56d-5fadf7077751] Completed 500 Internal Server Error in 9ms (Allocations: 2087)
+F, [2021-02-20T09:00:12.504686 #5516] FATAL -- : [5fbb7372-4259-4277-a56d-5fadf7077751]   
+[5fbb7372-4259-4277-a56d-5fadf7077751] ActionView::Template::Error (uninitialized constant ApplicationController::IpAdressRejected
+Did you mean?  ApplicationController::IpAddressRejected):
+[5fbb7372-4259-4277-a56d-5fadf7077751]     3:     <p>
+[5fbb7372-4259-4277-a56d-5fadf7077751]     4:         <%= 
+[5fbb7372-4259-4277-a56d-5fadf7077751]     5:             case @exception
+[5fbb7372-4259-4277-a56d-5fadf7077751]     6:             when ApplicationController::IpAdressRejected
+[5fbb7372-4259-4277-a56d-5fadf7077751]     7:                 "あなたのIPアドレス（#{request.ip}）からは利用できません。"
+[5fbb7372-4259-4277-a56d-5fadf7077751]     8: 
+[5fbb7372-4259-4277-a56d-5fadf7077751]     9:             else
+[5fbb7372-4259-4277-a56d-5fadf7077751]   
+[5fbb7372-4259-4277-a56d-5fadf7077751] app/views/errors/forbidden.html.erb:6
+[5fbb7372-4259-4277-a56d-5fadf7077751] app/controllers/application_controller.rb:25:in `rescue403'
+I, [2021-02-20T09:00:14.291714 #5516]  INFO -- : [828f2a27-b698-4c85-b827-7ebee8139bfe] Started GET "/staff" for 172.19.0.1 at 2021-02-20 09:00:14 +0000
+I, [2021-02-20T09:00:14.302966 #5516]  INFO -- : [828f2a27-b698-4c85-b827-7ebee8139bfe] Processing by Staff::TopController#index as HTML
+I, [2021-02-20T09:00:14.305959 #5516]  INFO -- : [828f2a27-b698-4c85-b827-7ebee8139bfe]   Rendering staff/top/index.html.erb within layouts/staff
+I, [2021-02-20T09:00:14.308415 #5516]  INFO -- : [828f2a27-b698-4c85-b827-7ebee8139bfe]   Rendered staff/top/index.html.erb within layouts/staff (Duration: 1.5ms | Allocations: 114)
+I, [2021-02-20T09:00:14.313777 #5516]  INFO -- : [828f2a27-b698-4c85-b827-7ebee8139bfe]   Rendered shared/_header.html.erb (Duration: 1.4ms | Allocations: 85)
+I, [2021-02-20T09:00:14.316439 #5516]  INFO -- : [828f2a27-b698-4c85-b827-7ebee8139bfe]   Rendered shared/_footer.html.erb (Duration: 1.1ms | Allocations: 84)
+I, [2021-02-20T09:00:14.318100 #5516]  INFO -- : [828f2a27-b698-4c85-b827-7ebee8139bfe] Completed 200 OK in 14ms (Views: 13.2ms | Allocations: 2074)
+I, [2021-02-20T09:00:26.946674 #5516]  INFO -- : [2ab4adcc-a193-47a3-9058-67de0f8d3dd6] Started GET "/staff" for 172.19.0.1 at 2021-02-20 09:00:26 +0000
+I, [2021-02-20T09:00:26.966128 #5516]  INFO -- : [2ab4adcc-a193-47a3-9058-67de0f8d3dd6] Processing by Staff::TopController#index as HTML
+I, [2021-02-20T09:00:26.971443 #5516]  INFO -- : [2ab4adcc-a193-47a3-9058-67de0f8d3dd6]   Rendering staff/top/index.html.erb within layouts/staff
+I, [2021-02-20T09:00:26.973161 #5516]  INFO -- : [2ab4adcc-a193-47a3-9058-67de0f8d3dd6]   Rendered staff/top/index.html.erb within layouts/staff (Duration: 0.1ms | Allocations: 7)
+I, [2021-02-20T09:00:26.976153 #5516]  INFO -- : [2ab4adcc-a193-47a3-9058-67de0f8d3dd6]   Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+I, [2021-02-20T09:00:26.979265 #5516]  INFO -- : [2ab4adcc-a193-47a3-9058-67de0f8d3dd6]   Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-02-20T09:00:26.980789 #5516]  INFO -- : [2ab4adcc-a193-47a3-9058-67de0f8d3dd6] Completed 200 OK in 10ms (Views: 9.6ms | Allocations: 781)
+I, [2021-02-20T09:02:33.714474 #5516]  INFO -- : [3a5321f4-c621-4924-804a-2ad6144c1ce6] Started GET "/staff" for 172.19.0.1 at 2021-02-20 09:02:33 +0000
+I, [2021-02-20T09:02:33.826450 #5516]  INFO -- : [3a5321f4-c621-4924-804a-2ad6144c1ce6] Processing by Staff::TopController#index as HTML
+I, [2021-02-20T09:02:33.830192 #5516]  INFO -- : [3a5321f4-c621-4924-804a-2ad6144c1ce6]   Rendering staff/top/index.html.erb within layouts/staff
+I, [2021-02-20T09:02:33.832547 #5516]  INFO -- : [3a5321f4-c621-4924-804a-2ad6144c1ce6]   Rendered staff/top/index.html.erb within layouts/staff (Duration: 1.6ms | Allocations: 107)
+I, [2021-02-20T09:02:33.838978 #5516]  INFO -- : [3a5321f4-c621-4924-804a-2ad6144c1ce6]   Rendered shared/_header.html.erb (Duration: 1.5ms | Allocations: 82)
+I, [2021-02-20T09:02:33.842325 #5516]  INFO -- : [3a5321f4-c621-4924-804a-2ad6144c1ce6]   Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 81)
+I, [2021-02-20T09:02:33.843727 #5516]  INFO -- : [3a5321f4-c621-4924-804a-2ad6144c1ce6] Completed 200 OK in 16ms (Views: 15.0ms | Allocations: 1984)
+I, [2021-02-20T09:02:35.844920 #5516]  INFO -- : [b4861e50-d16e-4063-899d-1a0b8aea224c] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:02:35 +0000
+I, [2021-02-20T09:02:35.892022 #5516]  INFO -- : [b4861e50-d16e-4063-899d-1a0b8aea224c] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:02:35.894702 #5516]  INFO -- : [b4861e50-d16e-4063-899d-1a0b8aea224c]   Rendering admin/top/index.html.erb within layouts/admin
+I, [2021-02-20T09:02:35.896674 #5516]  INFO -- : [b4861e50-d16e-4063-899d-1a0b8aea224c]   Rendered admin/top/index.html.erb within layouts/admin (Duration: 1.3ms | Allocations: 110)
+I, [2021-02-20T09:02:35.899392 #5516]  INFO -- : [b4861e50-d16e-4063-899d-1a0b8aea224c]   Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+I, [2021-02-20T09:02:35.900295 #5516]  INFO -- : [b4861e50-d16e-4063-899d-1a0b8aea224c]   Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-02-20T09:02:35.901352 #5516]  INFO -- : [b4861e50-d16e-4063-899d-1a0b8aea224c] Completed 200 OK in 8ms (Views: 7.8ms | Allocations: 1541)
+I, [2021-02-20T09:02:40.486738 #5516]  INFO -- : [ee384c84-0cfb-49be-98fc-9a92b3457123] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:02:40 +0000
+I, [2021-02-20T09:02:40.594749 #5516]  INFO -- : [ee384c84-0cfb-49be-98fc-9a92b3457123] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:02:40.597469 #5516]  INFO -- : [ee384c84-0cfb-49be-98fc-9a92b3457123]   Rendering errors/forbidden.html.erb within layouts/admin
+I, [2021-02-20T09:02:40.611026 #5516]  INFO -- : [ee384c84-0cfb-49be-98fc-9a92b3457123]   Rendered errors/forbidden.html.erb within layouts/admin (Duration: 11.4ms | Allocations: 1799)
+I, [2021-02-20T09:02:40.612275 #5516]  INFO -- : [ee384c84-0cfb-49be-98fc-9a92b3457123] Completed 500 Internal Server Error in 16ms (Allocations: 2467)
+F, [2021-02-20T09:02:40.615752 #5516] FATAL -- : [ee384c84-0cfb-49be-98fc-9a92b3457123]   
+[ee384c84-0cfb-49be-98fc-9a92b3457123] ActionView::Template::Error (uninitialized constant ApplicationController::IpAdressRejected
+Did you mean?  ApplicationController::IpAddressRejected):
+[ee384c84-0cfb-49be-98fc-9a92b3457123]     3:     <p>
+[ee384c84-0cfb-49be-98fc-9a92b3457123]     4:         <%= 
+[ee384c84-0cfb-49be-98fc-9a92b3457123]     5:             case @exception
+[ee384c84-0cfb-49be-98fc-9a92b3457123]     6:             when ApplicationController::IpAdressRejected
+[ee384c84-0cfb-49be-98fc-9a92b3457123]     7:                 "あなたのIPアドレス（#{request.ip}）からは利用できません。"
+[ee384c84-0cfb-49be-98fc-9a92b3457123]     8: 
+[ee384c84-0cfb-49be-98fc-9a92b3457123]     9:             else
+[ee384c84-0cfb-49be-98fc-9a92b3457123]   
+[ee384c84-0cfb-49be-98fc-9a92b3457123] app/views/errors/forbidden.html.erb:6
+[ee384c84-0cfb-49be-98fc-9a92b3457123] app/controllers/application_controller.rb:25:in `rescue403'
+I, [2021-02-20T09:02:56.869952 #5516]  INFO -- : [fe89da28-0390-4798-8e8a-b38a50880e72] Started GET "/staff" for 172.19.0.1 at 2021-02-20 09:02:56 +0000
+I, [2021-02-20T09:02:56.979182 #5516]  INFO -- : [fe89da28-0390-4798-8e8a-b38a50880e72] Processing by Staff::TopController#index as HTML
+I, [2021-02-20T09:02:56.981126 #5516]  INFO -- : [fe89da28-0390-4798-8e8a-b38a50880e72]   Rendering errors/forbidden.html.erb within layouts/staff
+I, [2021-02-20T09:02:56.988529 #5516]  INFO -- : [fe89da28-0390-4798-8e8a-b38a50880e72]   Rendered errors/forbidden.html.erb within layouts/staff (Duration: 6.2ms | Allocations: 1687)
+I, [2021-02-20T09:02:56.989935 #5516]  INFO -- : [fe89da28-0390-4798-8e8a-b38a50880e72] Completed 500 Internal Server Error in 10ms (Allocations: 2217)
+F, [2021-02-20T09:02:56.992885 #5516] FATAL -- : [fe89da28-0390-4798-8e8a-b38a50880e72]   
+[fe89da28-0390-4798-8e8a-b38a50880e72] ActionView::Template::Error (uninitialized constant ApplicationController::IpAdressRejected
+Did you mean?  ApplicationController::IpAddressRejected):
+[fe89da28-0390-4798-8e8a-b38a50880e72]     3:     <p>
+[fe89da28-0390-4798-8e8a-b38a50880e72]     4:         <%= 
+[fe89da28-0390-4798-8e8a-b38a50880e72]     5:             case @exception
+[fe89da28-0390-4798-8e8a-b38a50880e72]     6:             when ApplicationController::IpAdressRejected
+[fe89da28-0390-4798-8e8a-b38a50880e72]     7:                 "あなたのIPアドレス（#{request.ip}）からは利用できません。"
+[fe89da28-0390-4798-8e8a-b38a50880e72]     8: 
+[fe89da28-0390-4798-8e8a-b38a50880e72]     9:             else
+[fe89da28-0390-4798-8e8a-b38a50880e72]   
+[fe89da28-0390-4798-8e8a-b38a50880e72] app/views/errors/forbidden.html.erb:6
+[fe89da28-0390-4798-8e8a-b38a50880e72] app/controllers/application_controller.rb:25:in `rescue403'
+I, [2021-02-20T09:04:18.903693 #5516]  INFO -- : [5ff4a6d5-a940-4130-9767-7315e60dbb4c] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:04:18 +0000
+I, [2021-02-20T09:04:19.106554 #5516]  INFO -- : [5ff4a6d5-a940-4130-9767-7315e60dbb4c] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:04:19.108725 #5516]  INFO -- : [5ff4a6d5-a940-4130-9767-7315e60dbb4c]   Rendering errors/forbidden.html.erb within layouts/admin
+I, [2021-02-20T09:04:19.117072 #5516]  INFO -- : [5ff4a6d5-a940-4130-9767-7315e60dbb4c]   Rendered errors/forbidden.html.erb within layouts/admin (Duration: 7.3ms | Allocations: 1687)
+I, [2021-02-20T09:04:19.118712 #5516]  INFO -- : [5ff4a6d5-a940-4130-9767-7315e60dbb4c] Completed 500 Internal Server Error in 11ms (Allocations: 2217)
+F, [2021-02-20T09:04:19.141622 #5516] FATAL -- : [5ff4a6d5-a940-4130-9767-7315e60dbb4c]   
+[5ff4a6d5-a940-4130-9767-7315e60dbb4c] ActionView::Template::Error (uninitialized constant ApplicationController::IpAdressRejected
+Did you mean?  ApplicationController::IpAddressRejected):
+[5ff4a6d5-a940-4130-9767-7315e60dbb4c]     3:     <p>
+[5ff4a6d5-a940-4130-9767-7315e60dbb4c]     4:         <%= 
+[5ff4a6d5-a940-4130-9767-7315e60dbb4c]     5:             case @exception
+[5ff4a6d5-a940-4130-9767-7315e60dbb4c]     6:             when ApplicationController::IpAdressRejected
+[5ff4a6d5-a940-4130-9767-7315e60dbb4c]     7:                 "あなたのIPアドレス（#{request.ip}）からは利用できません。"
+[5ff4a6d5-a940-4130-9767-7315e60dbb4c]     8: 
+[5ff4a6d5-a940-4130-9767-7315e60dbb4c]     9:             else
+[5ff4a6d5-a940-4130-9767-7315e60dbb4c]   
+[5ff4a6d5-a940-4130-9767-7315e60dbb4c] app/views/errors/forbidden.html.erb:6
+[5ff4a6d5-a940-4130-9767-7315e60dbb4c] app/controllers/application_controller.rb:21:in `rescue403'
+I, [2021-02-20T09:04:38.563473 #5516]  INFO -- : [777574f6-cba1-4b91-9d6b-d301ce423cc9] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:04:38 +0000
+I, [2021-02-20T09:04:38.665861 #5516]  INFO -- : [777574f6-cba1-4b91-9d6b-d301ce423cc9] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:04:38.668307 #5516]  INFO -- : [777574f6-cba1-4b91-9d6b-d301ce423cc9]   Rendering errors/internal_server_error.html.erb within layouts/admin
+I, [2021-02-20T09:04:38.670694 #5516]  INFO -- : [777574f6-cba1-4b91-9d6b-d301ce423cc9]   Rendered errors/internal_server_error.html.erb within layouts/admin (Duration: 1.3ms | Allocations: 89)
+I, [2021-02-20T09:04:38.672559 #5516]  INFO -- : [777574f6-cba1-4b91-9d6b-d301ce423cc9]   Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+I, [2021-02-20T09:04:38.673781 #5516]  INFO -- : [777574f6-cba1-4b91-9d6b-d301ce423cc9]   Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-02-20T09:04:38.674951 #5516]  INFO -- : [777574f6-cba1-4b91-9d6b-d301ce423cc9] Completed 500 Internal Server Error in 8ms (Views: 7.4ms | Allocations: 1132)
+I, [2021-02-20T09:05:10.758582 #5516]  INFO -- : [10ff43a4-fdf4-4d1d-9811-3c4b88dc291a] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:05:10 +0000
+I, [2021-02-20T09:05:10.872544 #5516]  INFO -- : [10ff43a4-fdf4-4d1d-9811-3c4b88dc291a] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:05:10.875401 #5516]  INFO -- : [10ff43a4-fdf4-4d1d-9811-3c4b88dc291a]   Rendering errors/internal_server_error.html.erb within layouts/admin
+I, [2021-02-20T09:05:10.876607 #5516]  INFO -- : [10ff43a4-fdf4-4d1d-9811-3c4b88dc291a]   Rendered errors/internal_server_error.html.erb within layouts/admin (Duration: 0.1ms | Allocations: 4)
+I, [2021-02-20T09:05:10.878061 #5516]  INFO -- : [10ff43a4-fdf4-4d1d-9811-3c4b88dc291a]   Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+I, [2021-02-20T09:05:10.879153 #5516]  INFO -- : [10ff43a4-fdf4-4d1d-9811-3c4b88dc291a]   Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-02-20T09:05:10.880184 #5516]  INFO -- : [10ff43a4-fdf4-4d1d-9811-3c4b88dc291a] Completed 500 Internal Server Error in 6ms (Views: 5.2ms | Allocations: 929)
+I, [2021-02-20T09:05:20.003772 #5516]  INFO -- : [ab0dd031-c1b3-40d1-bc47-f652ea09d4df] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:05:20 +0000
+I, [2021-02-20T09:05:20.116206 #5516]  INFO -- : [ab0dd031-c1b3-40d1-bc47-f652ea09d4df] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:05:20.118747 #5516]  INFO -- : [ab0dd031-c1b3-40d1-bc47-f652ea09d4df]   Rendering errors/forbidden.html.erb within layouts/admin
+I, [2021-02-20T09:05:20.125783 #5516]  INFO -- : [ab0dd031-c1b3-40d1-bc47-f652ea09d4df]   Rendered errors/forbidden.html.erb within layouts/admin (Duration: 6.0ms | Allocations: 1687)
+I, [2021-02-20T09:05:20.126889 #5516]  INFO -- : [ab0dd031-c1b3-40d1-bc47-f652ea09d4df] Completed 500 Internal Server Error in 9ms (Allocations: 2233)
+F, [2021-02-20T09:05:20.130179 #5516] FATAL -- : [ab0dd031-c1b3-40d1-bc47-f652ea09d4df]   
+[ab0dd031-c1b3-40d1-bc47-f652ea09d4df] ActionView::Template::Error (uninitialized constant ApplicationController::IpAdressRejected
+Did you mean?  ApplicationController::IpAddressRejected):
+[ab0dd031-c1b3-40d1-bc47-f652ea09d4df]     3:     <p>
+[ab0dd031-c1b3-40d1-bc47-f652ea09d4df]     4:         <%= 
+[ab0dd031-c1b3-40d1-bc47-f652ea09d4df]     5:             case @exception
+[ab0dd031-c1b3-40d1-bc47-f652ea09d4df]     6:             when ApplicationController::IpAdressRejected
+[ab0dd031-c1b3-40d1-bc47-f652ea09d4df]     7:                 "あなたのIPアドレス（#{request.ip}）からは利用できません。"
+[ab0dd031-c1b3-40d1-bc47-f652ea09d4df]     8: 
+[ab0dd031-c1b3-40d1-bc47-f652ea09d4df]     9:             else
+[ab0dd031-c1b3-40d1-bc47-f652ea09d4df]   
+[ab0dd031-c1b3-40d1-bc47-f652ea09d4df] app/views/errors/forbidden.html.erb:6
+[ab0dd031-c1b3-40d1-bc47-f652ea09d4df] app/controllers/application_controller.rb:21:in `rescue403'
+I, [2021-02-20T09:07:49.206850 #5516]  INFO -- : [e072ff2c-2f05-433c-8815-f7ad547a5624] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:07:49 +0000
+I, [2021-02-20T09:07:49.345235 #5516]  INFO -- : [e072ff2c-2f05-433c-8815-f7ad547a5624] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:07:49.348173 #5516]  INFO -- : [e072ff2c-2f05-433c-8815-f7ad547a5624]   Rendering errors/forbidden.html.erb within layouts/admin
+I, [2021-02-20T09:07:49.355700 #5516]  INFO -- : [e072ff2c-2f05-433c-8815-f7ad547a5624]   Rendered errors/forbidden.html.erb within layouts/admin (Duration: 6.4ms | Allocations: 1687)
+I, [2021-02-20T09:07:49.356759 #5516]  INFO -- : [e072ff2c-2f05-433c-8815-f7ad547a5624] Completed 500 Internal Server Error in 10ms (Allocations: 2233)
+F, [2021-02-20T09:07:49.359738 #5516] FATAL -- : [e072ff2c-2f05-433c-8815-f7ad547a5624]   
+[e072ff2c-2f05-433c-8815-f7ad547a5624] ActionView::Template::Error (uninitialized constant ApplicationController::IpAdressRejected
+Did you mean?  ApplicationController::IpAddressRejected):
+[e072ff2c-2f05-433c-8815-f7ad547a5624]     3:     <p>
+[e072ff2c-2f05-433c-8815-f7ad547a5624]     4:         <%= 
+[e072ff2c-2f05-433c-8815-f7ad547a5624]     5:             case @exception
+[e072ff2c-2f05-433c-8815-f7ad547a5624]     6:             when ApplicationController::IpAdressRejected
+[e072ff2c-2f05-433c-8815-f7ad547a5624]     7:                 "あなたのIPアドレス（#{request.ip}）からは利用できません。"
+[e072ff2c-2f05-433c-8815-f7ad547a5624]     8: 
+[e072ff2c-2f05-433c-8815-f7ad547a5624]     9:             else
+[e072ff2c-2f05-433c-8815-f7ad547a5624]   
+[e072ff2c-2f05-433c-8815-f7ad547a5624] app/views/errors/forbidden.html.erb:6
+[e072ff2c-2f05-433c-8815-f7ad547a5624] app/controllers/application_controller.rb:21:in `rescue403'
+I, [2021-02-20T09:07:50.642256 #5516]  INFO -- : [73c3aed5-21d0-4b69-9537-bc76ad0ed54f] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:07:50 +0000
+I, [2021-02-20T09:07:50.652300 #5516]  INFO -- : [73c3aed5-21d0-4b69-9537-bc76ad0ed54f] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:07:50.653868 #5516]  INFO -- : [73c3aed5-21d0-4b69-9537-bc76ad0ed54f]   Rendering errors/forbidden.html.erb within layouts/admin
+I, [2021-02-20T09:07:50.661114 #5516]  INFO -- : [73c3aed5-21d0-4b69-9537-bc76ad0ed54f]   Rendered errors/forbidden.html.erb within layouts/admin (Duration: 6.6ms | Allocations: 1687)
+I, [2021-02-20T09:07:50.662065 #5516]  INFO -- : [73c3aed5-21d0-4b69-9537-bc76ad0ed54f] Completed 500 Internal Server Error in 9ms (Allocations: 2076)
+F, [2021-02-20T09:07:50.664505 #5516] FATAL -- : [73c3aed5-21d0-4b69-9537-bc76ad0ed54f]   
+[73c3aed5-21d0-4b69-9537-bc76ad0ed54f] ActionView::Template::Error (uninitialized constant ApplicationController::IpAdressRejected
+Did you mean?  ApplicationController::IpAddressRejected):
+[73c3aed5-21d0-4b69-9537-bc76ad0ed54f]     3:     <p>
+[73c3aed5-21d0-4b69-9537-bc76ad0ed54f]     4:         <%= 
+[73c3aed5-21d0-4b69-9537-bc76ad0ed54f]     5:             case @exception
+[73c3aed5-21d0-4b69-9537-bc76ad0ed54f]     6:             when ApplicationController::IpAdressRejected
+[73c3aed5-21d0-4b69-9537-bc76ad0ed54f]     7:                 "あなたのIPアドレス（#{request.ip}）からは利用できません。"
+[73c3aed5-21d0-4b69-9537-bc76ad0ed54f]     8: 
+[73c3aed5-21d0-4b69-9537-bc76ad0ed54f]     9:             else
+[73c3aed5-21d0-4b69-9537-bc76ad0ed54f]   
+[73c3aed5-21d0-4b69-9537-bc76ad0ed54f] app/views/errors/forbidden.html.erb:6
+[73c3aed5-21d0-4b69-9537-bc76ad0ed54f] app/controllers/application_controller.rb:21:in `rescue403'
+I, [2021-02-20T09:08:01.998435 #5516]  INFO -- : [117bd4ed-feda-417b-aa32-63208231c6b2] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:08:01 +0000
+I, [2021-02-20T09:08:02.099580 #5516]  INFO -- : [117bd4ed-feda-417b-aa32-63208231c6b2] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:08:02.101286 #5516]  INFO -- : [117bd4ed-feda-417b-aa32-63208231c6b2]   Rendering errors/forbidden.html.erb within layouts/admin
+I, [2021-02-20T09:08:02.108404 #5516]  INFO -- : [117bd4ed-feda-417b-aa32-63208231c6b2]   Rendered errors/forbidden.html.erb within layouts/admin (Duration: 6.5ms | Allocations: 1687)
+I, [2021-02-20T09:08:02.109352 #5516]  INFO -- : [117bd4ed-feda-417b-aa32-63208231c6b2] Completed 500 Internal Server Error in 9ms (Allocations: 2234)
+F, [2021-02-20T09:08:02.111908 #5516] FATAL -- : [117bd4ed-feda-417b-aa32-63208231c6b2]   
+[117bd4ed-feda-417b-aa32-63208231c6b2] ActionView::Template::Error (uninitialized constant ApplicationController::IpAdressRejected
+Did you mean?  ApplicationController::IpAddressRejected):
+[117bd4ed-feda-417b-aa32-63208231c6b2]     3:     <p>
+[117bd4ed-feda-417b-aa32-63208231c6b2]     4:         <%= 
+[117bd4ed-feda-417b-aa32-63208231c6b2]     5:             case @exception
+[117bd4ed-feda-417b-aa32-63208231c6b2]     6:             when ApplicationController::IpAdressRejected
+[117bd4ed-feda-417b-aa32-63208231c6b2]     7:                 "あなたのIPアドレス（#{request.ip}）からは利用できません。"
+[117bd4ed-feda-417b-aa32-63208231c6b2]     8: 
+[117bd4ed-feda-417b-aa32-63208231c6b2]     9:             else
+[117bd4ed-feda-417b-aa32-63208231c6b2]   
+[117bd4ed-feda-417b-aa32-63208231c6b2] app/views/errors/forbidden.html.erb:6
+[117bd4ed-feda-417b-aa32-63208231c6b2] app/controllers/application_controller.rb:21:in `rescue403'
+I, [2021-02-20T09:08:19.063399 #5516]  INFO -- : [19a77db4-7700-4924-8f5b-e125367075e1] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:08:19 +0000
+I, [2021-02-20T09:08:19.159337 #5516]  INFO -- : [19a77db4-7700-4924-8f5b-e125367075e1] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:08:19.161272 #5516]  INFO -- : [19a77db4-7700-4924-8f5b-e125367075e1]   Rendering errors/internal_server_error.html.erb within layouts/admin
+I, [2021-02-20T09:08:19.162030 #5516]  INFO -- : [19a77db4-7700-4924-8f5b-e125367075e1]   Rendered errors/internal_server_error.html.erb within layouts/admin (Duration: 0.1ms | Allocations: 4)
+I, [2021-02-20T09:08:19.163769 #5516]  INFO -- : [19a77db4-7700-4924-8f5b-e125367075e1]   Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+I, [2021-02-20T09:08:19.164730 #5516]  INFO -- : [19a77db4-7700-4924-8f5b-e125367075e1]   Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-02-20T09:08:19.165645 #5516]  INFO -- : [19a77db4-7700-4924-8f5b-e125367075e1] Completed 500 Internal Server Error in 5ms (Views: 4.8ms | Allocations: 925)
+I, [2021-02-20T09:08:48.855509 #5516]  INFO -- : [8fdcdc84-0af4-4c43-9e30-dd6d99993c5d] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:08:48 +0000
+I, [2021-02-20T09:08:48.991158 #5516]  INFO -- : [8fdcdc84-0af4-4c43-9e30-dd6d99993c5d] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:08:48.993227 #5516]  INFO -- : [8fdcdc84-0af4-4c43-9e30-dd6d99993c5d]   Rendering errors/internal_server_error.html.erb within layouts/admin
+I, [2021-02-20T09:08:48.994329 #5516]  INFO -- : [8fdcdc84-0af4-4c43-9e30-dd6d99993c5d]   Rendered errors/internal_server_error.html.erb within layouts/admin (Duration: 0.1ms | Allocations: 4)
+I, [2021-02-20T09:08:48.995848 #5516]  INFO -- : [8fdcdc84-0af4-4c43-9e30-dd6d99993c5d]   Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+I, [2021-02-20T09:08:48.997251 #5516]  INFO -- : [8fdcdc84-0af4-4c43-9e30-dd6d99993c5d]   Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-02-20T09:08:48.998237 #5516]  INFO -- : [8fdcdc84-0af4-4c43-9e30-dd6d99993c5d] Completed 500 Internal Server Error in 6ms (Views: 5.4ms | Allocations: 942)
+I, [2021-02-20T09:08:50.392573 #5516]  INFO -- : [d8071851-2727-445c-ae15-32de41991fb9] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:08:50 +0000
+I, [2021-02-20T09:08:50.403580 #5516]  INFO -- : [d8071851-2727-445c-ae15-32de41991fb9] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:08:50.405295 #5516]  INFO -- : [d8071851-2727-445c-ae15-32de41991fb9]   Rendering errors/internal_server_error.html.erb within layouts/admin
+I, [2021-02-20T09:08:50.406277 #5516]  INFO -- : [d8071851-2727-445c-ae15-32de41991fb9]   Rendered errors/internal_server_error.html.erb within layouts/admin (Duration: 0.0ms | Allocations: 4)
+I, [2021-02-20T09:08:50.407803 #5516]  INFO -- : [d8071851-2727-445c-ae15-32de41991fb9]   Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+I, [2021-02-20T09:08:50.408630 #5516]  INFO -- : [d8071851-2727-445c-ae15-32de41991fb9]   Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-02-20T09:08:50.409647 #5516]  INFO -- : [d8071851-2727-445c-ae15-32de41991fb9] Completed 500 Internal Server Error in 5ms (Views: 4.5ms | Allocations: 763)
+I, [2021-02-20T09:09:18.107651 #5516]  INFO -- : [8a3eecdc-08f6-4b3c-8387-9fbd45a44773] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:09:18 +0000
+I, [2021-02-20T09:09:18.239995 #5516]  INFO -- : [8a3eecdc-08f6-4b3c-8387-9fbd45a44773] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:09:18.241788 #5516]  INFO -- : [8a3eecdc-08f6-4b3c-8387-9fbd45a44773]   Rendering errors/forbidden.html.erb within layouts/admin
+I, [2021-02-20T09:09:18.248984 #5516]  INFO -- : [8a3eecdc-08f6-4b3c-8387-9fbd45a44773]   Rendered errors/forbidden.html.erb within layouts/admin (Duration: 6.5ms | Allocations: 1687)
+I, [2021-02-20T09:09:18.250089 #5516]  INFO -- : [8a3eecdc-08f6-4b3c-8387-9fbd45a44773] Completed 500 Internal Server Error in 9ms (Allocations: 2237)
+F, [2021-02-20T09:09:18.253966 #5516] FATAL -- : [8a3eecdc-08f6-4b3c-8387-9fbd45a44773]   
+[8a3eecdc-08f6-4b3c-8387-9fbd45a44773] ActionView::Template::Error (uninitialized constant ApplicationController::IpAdressRejected
+Did you mean?  ApplicationController::IpAddressRejected):
+[8a3eecdc-08f6-4b3c-8387-9fbd45a44773]     3:     <p>
+[8a3eecdc-08f6-4b3c-8387-9fbd45a44773]     4:         <%= 
+[8a3eecdc-08f6-4b3c-8387-9fbd45a44773]     5:             case @exception
+[8a3eecdc-08f6-4b3c-8387-9fbd45a44773]     6:             when ApplicationController::IpAdressRejected
+[8a3eecdc-08f6-4b3c-8387-9fbd45a44773]     7:                 "あなたのIPアドレス（#{request.ip}）からは利用できません。"
+[8a3eecdc-08f6-4b3c-8387-9fbd45a44773]     8: 
+[8a3eecdc-08f6-4b3c-8387-9fbd45a44773]     9:             else
+[8a3eecdc-08f6-4b3c-8387-9fbd45a44773]   
+[8a3eecdc-08f6-4b3c-8387-9fbd45a44773] app/views/errors/forbidden.html.erb:6
+[8a3eecdc-08f6-4b3c-8387-9fbd45a44773] app/controllers/application_controller.rb:21:in `rescue403'
+I, [2021-02-20T09:09:53.302934 #5516]  INFO -- : [ecfb326a-e003-4529-b06b-6a9e8f943871] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:09:53 +0000
+I, [2021-02-20T09:09:53.404305 #5516]  INFO -- : [ecfb326a-e003-4529-b06b-6a9e8f943871] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:09:53.406097 #5516]  INFO -- : [ecfb326a-e003-4529-b06b-6a9e8f943871]   Rendering errors/internal_server_error.html.erb within layouts/admin
+I, [2021-02-20T09:09:53.407222 #5516]  INFO -- : [ecfb326a-e003-4529-b06b-6a9e8f943871]   Rendered errors/internal_server_error.html.erb within layouts/admin (Duration: 0.1ms | Allocations: 4)
+I, [2021-02-20T09:09:53.408881 #5516]  INFO -- : [ecfb326a-e003-4529-b06b-6a9e8f943871]   Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+I, [2021-02-20T09:09:53.409849 #5516]  INFO -- : [ecfb326a-e003-4529-b06b-6a9e8f943871]   Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-02-20T09:09:53.410671 #5516]  INFO -- : [ecfb326a-e003-4529-b06b-6a9e8f943871] Completed 403 Forbidden in 5ms (Views: 4.9ms | Allocations: 930)
+I, [2021-02-20T09:10:41.415089 #5516]  INFO -- : [493a284e-d129-44de-809f-c4d917f4eb84] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:10:41 +0000
+I, [2021-02-20T09:10:41.514805 #5516]  INFO -- : [493a284e-d129-44de-809f-c4d917f4eb84] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:10:41.517838 #5516]  INFO -- : [493a284e-d129-44de-809f-c4d917f4eb84]   Rendering errors/forbidden.html.erb within layouts/admin
+I, [2021-02-20T09:10:41.526695 #5516]  INFO -- : [493a284e-d129-44de-809f-c4d917f4eb84]   Rendered errors/forbidden.html.erb within layouts/admin (Duration: 7.9ms | Allocations: 1803)
+I, [2021-02-20T09:10:41.528012 #5516]  INFO -- : [493a284e-d129-44de-809f-c4d917f4eb84] Completed 500 Internal Server Error in 12ms (Allocations: 2641)
+F, [2021-02-20T09:10:41.531895 #5516] FATAL -- : [493a284e-d129-44de-809f-c4d917f4eb84]   
+[493a284e-d129-44de-809f-c4d917f4eb84] ActionView::Template::Error (uninitialized constant ApplicationController::IpAdressRejected
+Did you mean?  ApplicationController::IpAddressRejected):
+[493a284e-d129-44de-809f-c4d917f4eb84]     3:     <p>
+[493a284e-d129-44de-809f-c4d917f4eb84]     4:         <%= 
+[493a284e-d129-44de-809f-c4d917f4eb84]     5:             case @exception
+[493a284e-d129-44de-809f-c4d917f4eb84]     6:             when ApplicationController::IpAdressRejected
+[493a284e-d129-44de-809f-c4d917f4eb84]     7:                 "あなたのIPアドレス（#{request.ip}）からは利用できません。"
+[493a284e-d129-44de-809f-c4d917f4eb84]     8: 
+[493a284e-d129-44de-809f-c4d917f4eb84]     9:             else
+[493a284e-d129-44de-809f-c4d917f4eb84]   
+[493a284e-d129-44de-809f-c4d917f4eb84] app/views/errors/forbidden.html.erb:6
+[493a284e-d129-44de-809f-c4d917f4eb84] app/controllers/application_controller.rb:21:in `rescue403'
+I, [2021-02-20T09:10:49.627782 #5516]  INFO -- : [3b81b10f-49e3-4806-8eec-fc4181532680] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:10:49 +0000
+I, [2021-02-20T09:10:49.733914 #5516]  INFO -- : [3b81b10f-49e3-4806-8eec-fc4181532680] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:10:49.736160 #5516]  INFO -- : [3b81b10f-49e3-4806-8eec-fc4181532680]   Rendering errors/internal_server_error.html.erb within layouts/admin
+I, [2021-02-20T09:10:49.739262 #5516]  INFO -- : [3b81b10f-49e3-4806-8eec-fc4181532680]   Rendered errors/internal_server_error.html.erb within layouts/admin (Duration: 2.3ms | Allocations: 84)
+I, [2021-02-20T09:10:49.743534 #5516]  INFO -- : [3b81b10f-49e3-4806-8eec-fc4181532680]   Rendered shared/_header.html.erb (Duration: 1.4ms | Allocations: 82)
+I, [2021-02-20T09:10:49.746185 #5516]  INFO -- : [3b81b10f-49e3-4806-8eec-fc4181532680]   Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 81)
+I, [2021-02-20T09:10:49.747157 #5516]  INFO -- : [3b81b10f-49e3-4806-8eec-fc4181532680] Completed 403 Forbidden in 12ms (Views: 11.8ms | Allocations: 1797)
+I, [2021-02-20T09:11:36.796588 #5516]  INFO -- : [42e82ef6-9777-4c12-bf6f-39c34b150e66] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:11:36 +0000
+I, [2021-02-20T09:11:36.946719 #5516]  INFO -- : [42e82ef6-9777-4c12-bf6f-39c34b150e66] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:11:36.949824 #5516]  INFO -- : [42e82ef6-9777-4c12-bf6f-39c34b150e66]   Rendering errors/tmp.html.erb within layouts/admin
+I, [2021-02-20T09:11:36.960035 #5516]  INFO -- : [42e82ef6-9777-4c12-bf6f-39c34b150e66]   Rendered errors/tmp.html.erb within layouts/admin (Duration: 9.1ms | Allocations: 1800)
+I, [2021-02-20T09:11:36.961318 #5516]  INFO -- : [42e82ef6-9777-4c12-bf6f-39c34b150e66] Completed 500 Internal Server Error in 14ms (Allocations: 2652)
+F, [2021-02-20T09:11:36.964616 #5516] FATAL -- : [42e82ef6-9777-4c12-bf6f-39c34b150e66]   
+[42e82ef6-9777-4c12-bf6f-39c34b150e66] ActionView::Template::Error (uninitialized constant ApplicationController::IpAdressRejected
+Did you mean?  ApplicationController::IpAddressRejected):
+[42e82ef6-9777-4c12-bf6f-39c34b150e66]     3:     <p>
+[42e82ef6-9777-4c12-bf6f-39c34b150e66]     4:         <%= 
+[42e82ef6-9777-4c12-bf6f-39c34b150e66]     5:             case @exception
+[42e82ef6-9777-4c12-bf6f-39c34b150e66]     6:             when ApplicationController::IpAdressRejected
+[42e82ef6-9777-4c12-bf6f-39c34b150e66]     7:                 "あなたのIPアドレス（#{request.ip}）からは利用できません。"
+[42e82ef6-9777-4c12-bf6f-39c34b150e66]     8: 
+[42e82ef6-9777-4c12-bf6f-39c34b150e66]     9:             else
+[42e82ef6-9777-4c12-bf6f-39c34b150e66]   
+[42e82ef6-9777-4c12-bf6f-39c34b150e66] app/views/errors/tmp.html.erb:6
+[42e82ef6-9777-4c12-bf6f-39c34b150e66] app/controllers/application_controller.rb:21:in `rescue403'
+I, [2021-02-20T09:13:22.466944 #5516]  INFO -- : [26fbb398-bfa8-44a1-8d49-b35ffbbac434] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:13:22 +0000
+I, [2021-02-20T09:13:22.589490 #5516]  INFO -- : [26fbb398-bfa8-44a1-8d49-b35ffbbac434] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:13:22.592063 #5516]  INFO -- : [26fbb398-bfa8-44a1-8d49-b35ffbbac434]   Rendering errors/forbidden.html.erb within layouts/admin
+I, [2021-02-20T09:13:22.601167 #5516]  INFO -- : [26fbb398-bfa8-44a1-8d49-b35ffbbac434]   Rendered errors/forbidden.html.erb within layouts/admin (Duration: 8.3ms | Allocations: 1804)
+I, [2021-02-20T09:13:22.602763 #5516]  INFO -- : [26fbb398-bfa8-44a1-8d49-b35ffbbac434] Completed 500 Internal Server Error in 12ms (Allocations: 2657)
+F, [2021-02-20T09:13:22.606983 #5516] FATAL -- : [26fbb398-bfa8-44a1-8d49-b35ffbbac434]   
+[26fbb398-bfa8-44a1-8d49-b35ffbbac434] ActionView::Template::Error (uninitialized constant ApplicationController::IpAdressRejected
+Did you mean?  ApplicationController::IpAddressRejected):
+[26fbb398-bfa8-44a1-8d49-b35ffbbac434]     3:     <p>
+[26fbb398-bfa8-44a1-8d49-b35ffbbac434]     4:         <%= 
+[26fbb398-bfa8-44a1-8d49-b35ffbbac434]     5:             case @exception
+[26fbb398-bfa8-44a1-8d49-b35ffbbac434]     6:             when ApplicationController::IpAdressRejected
+[26fbb398-bfa8-44a1-8d49-b35ffbbac434]     7:                 "あなたのIPアドレス（#{request.ip}）からは利用できません。"
+[26fbb398-bfa8-44a1-8d49-b35ffbbac434]     8: 
+[26fbb398-bfa8-44a1-8d49-b35ffbbac434]     9:             else
+[26fbb398-bfa8-44a1-8d49-b35ffbbac434]   
+[26fbb398-bfa8-44a1-8d49-b35ffbbac434] app/views/errors/forbidden.html.erb:6
+[26fbb398-bfa8-44a1-8d49-b35ffbbac434] app/controllers/application_controller.rb:21:in `rescue403'
+I, [2021-02-20T09:13:23.424631 #5516]  INFO -- : [914d75ac-4ad9-4deb-8e62-b6701d197b82] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:13:23 +0000
+I, [2021-02-20T09:13:23.434849 #5516]  INFO -- : [914d75ac-4ad9-4deb-8e62-b6701d197b82] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:13:23.436676 #5516]  INFO -- : [914d75ac-4ad9-4deb-8e62-b6701d197b82]   Rendering errors/forbidden.html.erb within layouts/admin
+I, [2021-02-20T09:13:23.444190 #5516]  INFO -- : [914d75ac-4ad9-4deb-8e62-b6701d197b82]   Rendered errors/forbidden.html.erb within layouts/admin (Duration: 6.4ms | Allocations: 1687)
+I, [2021-02-20T09:13:23.445438 #5516]  INFO -- : [914d75ac-4ad9-4deb-8e62-b6701d197b82] Completed 500 Internal Server Error in 10ms (Allocations: 2085)
+F, [2021-02-20T09:13:23.448085 #5516] FATAL -- : [914d75ac-4ad9-4deb-8e62-b6701d197b82]   
+[914d75ac-4ad9-4deb-8e62-b6701d197b82] ActionView::Template::Error (uninitialized constant ApplicationController::IpAdressRejected
+Did you mean?  ApplicationController::IpAddressRejected):
+[914d75ac-4ad9-4deb-8e62-b6701d197b82]     3:     <p>
+[914d75ac-4ad9-4deb-8e62-b6701d197b82]     4:         <%= 
+[914d75ac-4ad9-4deb-8e62-b6701d197b82]     5:             case @exception
+[914d75ac-4ad9-4deb-8e62-b6701d197b82]     6:             when ApplicationController::IpAdressRejected
+[914d75ac-4ad9-4deb-8e62-b6701d197b82]     7:                 "あなたのIPアドレス（#{request.ip}）からは利用できません。"
+[914d75ac-4ad9-4deb-8e62-b6701d197b82]     8: 
+[914d75ac-4ad9-4deb-8e62-b6701d197b82]     9:             else
+[914d75ac-4ad9-4deb-8e62-b6701d197b82]   
+[914d75ac-4ad9-4deb-8e62-b6701d197b82] app/views/errors/forbidden.html.erb:6
+[914d75ac-4ad9-4deb-8e62-b6701d197b82] app/controllers/application_controller.rb:21:in `rescue403'
+I, [2021-02-20T09:13:36.585519 #5516]  INFO -- : [0d93f0a7-2f4e-4fc2-bd5d-b140f5b5c809] Started GET "/staff" for 172.19.0.1 at 2021-02-20 09:13:36 +0000
+I, [2021-02-20T09:13:36.626028 #5516]  INFO -- : [0d93f0a7-2f4e-4fc2-bd5d-b140f5b5c809] Processing by Staff::TopController#index as HTML
+I, [2021-02-20T09:13:36.628403 #5516]  INFO -- : [0d93f0a7-2f4e-4fc2-bd5d-b140f5b5c809]   Rendering errors/forbidden.html.erb within layouts/staff
+I, [2021-02-20T09:13:36.635091 #5516]  INFO -- : [0d93f0a7-2f4e-4fc2-bd5d-b140f5b5c809]   Rendered errors/forbidden.html.erb within layouts/staff (Duration: 6.0ms | Allocations: 1687)
+I, [2021-02-20T09:13:36.636209 #5516]  INFO -- : [0d93f0a7-2f4e-4fc2-bd5d-b140f5b5c809] Completed 500 Internal Server Error in 9ms (Allocations: 2377)
+F, [2021-02-20T09:13:36.638983 #5516] FATAL -- : [0d93f0a7-2f4e-4fc2-bd5d-b140f5b5c809]   
+[0d93f0a7-2f4e-4fc2-bd5d-b140f5b5c809] ActionView::Template::Error (uninitialized constant ApplicationController::IpAdressRejected
+Did you mean?  ApplicationController::IpAddressRejected):
+[0d93f0a7-2f4e-4fc2-bd5d-b140f5b5c809]     3:     <p>
+[0d93f0a7-2f4e-4fc2-bd5d-b140f5b5c809]     4:         <%= 
+[0d93f0a7-2f4e-4fc2-bd5d-b140f5b5c809]     5:             case @exception
+[0d93f0a7-2f4e-4fc2-bd5d-b140f5b5c809]     6:             when ApplicationController::IpAdressRejected
+[0d93f0a7-2f4e-4fc2-bd5d-b140f5b5c809]     7:                 "あなたのIPアドレス（#{request.ip}）からは利用できません。"
+[0d93f0a7-2f4e-4fc2-bd5d-b140f5b5c809]     8: 
+[0d93f0a7-2f4e-4fc2-bd5d-b140f5b5c809]     9:             else
+[0d93f0a7-2f4e-4fc2-bd5d-b140f5b5c809]   
+[0d93f0a7-2f4e-4fc2-bd5d-b140f5b5c809] app/views/errors/forbidden.html.erb:6
+[0d93f0a7-2f4e-4fc2-bd5d-b140f5b5c809] app/controllers/application_controller.rb:21:in `rescue403'
+I, [2021-02-20T09:13:57.630955 #5516]  INFO -- : [1d6b6400-829f-41ef-92ec-0329d968c14e] Started GET "/staff" for 172.19.0.1 at 2021-02-20 09:13:57 +0000
+I, [2021-02-20T09:13:57.740387 #5516]  INFO -- : [1d6b6400-829f-41ef-92ec-0329d968c14e] Processing by Staff::TopController#index as HTML
+I, [2021-02-20T09:13:57.743090 #5516]  INFO -- : [1d6b6400-829f-41ef-92ec-0329d968c14e]   Rendering errors/internal_server_error.html.erb within layouts/staff
+I, [2021-02-20T09:13:57.745821 #5516]  INFO -- : [1d6b6400-829f-41ef-92ec-0329d968c14e]   Rendered errors/internal_server_error.html.erb within layouts/staff (Duration: 1.8ms | Allocations: 82)
+I, [2021-02-20T09:13:57.749694 #5516]  INFO -- : [1d6b6400-829f-41ef-92ec-0329d968c14e]   Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 82)
+I, [2021-02-20T09:13:57.751943 #5516]  INFO -- : [1d6b6400-829f-41ef-92ec-0329d968c14e]   Rendered shared/_footer.html.erb (Duration: 1.1ms | Allocations: 81)
+I, [2021-02-20T09:13:57.752976 #5516]  INFO -- : [1d6b6400-829f-41ef-92ec-0329d968c14e] Completed 500 Internal Server Error in 11ms (Views: 10.8ms | Allocations: 1808)
+I, [2021-02-20T09:36:18.768157 #5992]  INFO -- : [069f6bf1-24ef-401f-808f-214d94b33719] Started GET "/aaa" for 172.19.0.1 at 2021-02-20 09:36:18 +0000
+F, [2021-02-20T09:36:18.778757 #5992] FATAL -- : [069f6bf1-24ef-401f-808f-214d94b33719]   
+[069f6bf1-24ef-401f-808f-214d94b33719] ActionController::RoutingError (No route matches [GET] "/aaa"):
+[069f6bf1-24ef-401f-808f-214d94b33719]   
+[069f6bf1-24ef-401f-808f-214d94b33719] actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[069f6bf1-24ef-401f-808f-214d94b33719] actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[069f6bf1-24ef-401f-808f-214d94b33719] railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+[069f6bf1-24ef-401f-808f-214d94b33719] railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+[069f6bf1-24ef-401f-808f-214d94b33719] activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[069f6bf1-24ef-401f-808f-214d94b33719] activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+[069f6bf1-24ef-401f-808f-214d94b33719] activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+[069f6bf1-24ef-401f-808f-214d94b33719] railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+[069f6bf1-24ef-401f-808f-214d94b33719] actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[069f6bf1-24ef-401f-808f-214d94b33719] actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[069f6bf1-24ef-401f-808f-214d94b33719] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[069f6bf1-24ef-401f-808f-214d94b33719] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[069f6bf1-24ef-401f-808f-214d94b33719] activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[069f6bf1-24ef-401f-808f-214d94b33719] actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[069f6bf1-24ef-401f-808f-214d94b33719] actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+[069f6bf1-24ef-401f-808f-214d94b33719] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[069f6bf1-24ef-401f-808f-214d94b33719] actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+[069f6bf1-24ef-401f-808f-214d94b33719] railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+[069f6bf1-24ef-401f-808f-214d94b33719] puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+[069f6bf1-24ef-401f-808f-214d94b33719] puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+[069f6bf1-24ef-401f-808f-214d94b33719] puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+[069f6bf1-24ef-401f-808f-214d94b33719] puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+[069f6bf1-24ef-401f-808f-214d94b33719] puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2021-02-20T09:36:18.781693 #5992]  INFO -- : [069f6bf1-24ef-401f-808f-214d94b33719] Processing by ErrorsController#not_found as HTML
+I, [2021-02-20T09:36:18.791285 #5992]  INFO -- : [069f6bf1-24ef-401f-808f-214d94b33719]   Rendering errors/not_found.html.erb within layouts/staff
+I, [2021-02-20T09:36:18.794831 #5992]  INFO -- : [069f6bf1-24ef-401f-808f-214d94b33719]   Rendered errors/not_found.html.erb within layouts/staff (Duration: 2.3ms | Allocations: 131)
+I, [2021-02-20T09:36:18.799377 #5992]  INFO -- : [069f6bf1-24ef-401f-808f-214d94b33719]   Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 85)
+I, [2021-02-20T09:36:18.802255 #5992]  INFO -- : [069f6bf1-24ef-401f-808f-214d94b33719]   Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 84)
+I, [2021-02-20T09:36:18.803597 #5992]  INFO -- : [069f6bf1-24ef-401f-808f-214d94b33719] Completed 404 Not Found in 21ms (Views: 15.1ms | Allocations: 2727)
+I, [2021-02-20T09:36:22.913667 #5992]  INFO -- : [29bafaf9-b7d5-4659-aa91-3932c26e5cc2] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:36:22 +0000
+I, [2021-02-20T09:36:22.923112 #5992]  INFO -- : [29bafaf9-b7d5-4659-aa91-3932c26e5cc2] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:36:22.927090 #5992]  INFO -- : [29bafaf9-b7d5-4659-aa91-3932c26e5cc2]   Rendering admin/top/index.html.erb within layouts/admin
+I, [2021-02-20T09:36:22.930231 #5992]  INFO -- : [29bafaf9-b7d5-4659-aa91-3932c26e5cc2]   Rendered admin/top/index.html.erb within layouts/admin (Duration: 1.7ms | Allocations: 113)
+I, [2021-02-20T09:36:22.933222 #5992]  INFO -- : [29bafaf9-b7d5-4659-aa91-3932c26e5cc2]   Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+I, [2021-02-20T09:36:22.934409 #5992]  INFO -- : [29bafaf9-b7d5-4659-aa91-3932c26e5cc2]   Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-02-20T09:36:22.935502 #5992]  INFO -- : [29bafaf9-b7d5-4659-aa91-3932c26e5cc2] Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 2046)
+I, [2021-02-20T09:36:24.992648 #5992]  INFO -- : [c53efd8f-f516-413a-8973-c793c8dfa7fd] Started GET "/xyz" for 172.19.0.1 at 2021-02-20 09:36:24 +0000
+F, [2021-02-20T09:36:25.002958 #5992] FATAL -- : [c53efd8f-f516-413a-8973-c793c8dfa7fd]   
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] ActionController::RoutingError (No route matches [GET] "/xyz"):
+[c53efd8f-f516-413a-8973-c793c8dfa7fd]   
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+[c53efd8f-f516-413a-8973-c793c8dfa7fd] puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2021-02-20T09:36:25.004326 #5992]  INFO -- : [c53efd8f-f516-413a-8973-c793c8dfa7fd] Processing by ErrorsController#not_found as HTML
+I, [2021-02-20T09:36:25.006190 #5992]  INFO -- : [c53efd8f-f516-413a-8973-c793c8dfa7fd]   Rendering errors/not_found.html.erb within layouts/staff
+I, [2021-02-20T09:36:25.007332 #5992]  INFO -- : [c53efd8f-f516-413a-8973-c793c8dfa7fd]   Rendered errors/not_found.html.erb within layouts/staff (Duration: 0.1ms | Allocations: 6)
+I, [2021-02-20T09:36:25.009356 #5992]  INFO -- : [c53efd8f-f516-413a-8973-c793c8dfa7fd]   Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+I, [2021-02-20T09:36:25.010906 #5992]  INFO -- : [c53efd8f-f516-413a-8973-c793c8dfa7fd]   Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-02-20T09:36:25.012435 #5992]  INFO -- : [c53efd8f-f516-413a-8973-c793c8dfa7fd] Completed 404 Not Found in 7ms (Views: 6.4ms | Allocations: 761)
+I, [2021-02-20T09:43:27.003257 #5992]  INFO -- : [80d658cc-c0f9-4954-8971-e6ef7b7cffa9] Started GET "/customer" for 172.19.0.1 at 2021-02-20 09:43:27 +0000
+I, [2021-02-20T09:43:27.152708 #5992]  INFO -- : [80d658cc-c0f9-4954-8971-e6ef7b7cffa9] Processing by Customer::TopController#index as HTML
+I, [2021-02-20T09:43:27.156548 #5992]  INFO -- : [80d658cc-c0f9-4954-8971-e6ef7b7cffa9] Completed 500 Internal Server Error in 3ms (Allocations: 960)
+F, [2021-02-20T09:43:27.157963 #5992] FATAL -- : [80d658cc-c0f9-4954-8971-e6ef7b7cffa9]   
+[80d658cc-c0f9-4954-8971-e6ef7b7cffa9] ActionView::MissingTemplate (Missing template error/not_found with {:locale=>[:ja], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/apps/baukis2/app/views"
+  * "/usr/local/bundle/gems/kaminari-core-1.2.1/app/views"
+  * "/usr/local/bundle/gems/actiontext-6.0.3.5/app/views"
+  * "/usr/local/bundle/gems/actionmailbox-6.0.3.5/app/views"
+):
+[80d658cc-c0f9-4954-8971-e6ef7b7cffa9]   
+[80d658cc-c0f9-4954-8971-e6ef7b7cffa9] app/controllers/application_controller.rb:26:in `rescue404'
+I, [2021-02-20T09:43:27.192520 #5992]  INFO -- : [80d658cc-c0f9-4954-8971-e6ef7b7cffa9] Processing by ErrorsController#internal_server_error as HTML
+I, [2021-02-20T09:43:27.194444 #5992]  INFO -- : [80d658cc-c0f9-4954-8971-e6ef7b7cffa9]   Rendering errors/internal_server_error.html.erb within layouts/staff
+I, [2021-02-20T09:43:27.196447 #5992]  INFO -- : [80d658cc-c0f9-4954-8971-e6ef7b7cffa9]   Rendered errors/internal_server_error.html.erb within layouts/staff (Duration: 1.2ms | Allocations: 84)
+I, [2021-02-20T09:43:27.197879 #5992]  INFO -- : [80d658cc-c0f9-4954-8971-e6ef7b7cffa9]   Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+I, [2021-02-20T09:43:27.199005 #5992]  INFO -- : [80d658cc-c0f9-4954-8971-e6ef7b7cffa9]   Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-02-20T09:43:27.200234 #5992]  INFO -- : [80d658cc-c0f9-4954-8971-e6ef7b7cffa9] Completed 500 Internal Server Error in 7ms (Views: 6.5ms | Allocations: 977)
+I, [2021-02-20T09:44:14.683166 #5992]  INFO -- : [3f833960-d36a-4645-8b82-42d2fc2cae80] Started GET "/customer" for 172.19.0.1 at 2021-02-20 09:44:14 +0000
+I, [2021-02-20T09:44:14.783719 #5992]  INFO -- : [3f833960-d36a-4645-8b82-42d2fc2cae80] Processing by Customer::TopController#index as HTML
+I, [2021-02-20T09:44:14.785931 #5992]  INFO -- : [3f833960-d36a-4645-8b82-42d2fc2cae80]   Rendering errors/not_found.html.erb within layouts/customer
+I, [2021-02-20T09:44:14.786952 #5992]  INFO -- : [3f833960-d36a-4645-8b82-42d2fc2cae80]   Rendered errors/not_found.html.erb within layouts/customer (Duration: 0.1ms | Allocations: 6)
+I, [2021-02-20T09:44:14.789875 #5992]  INFO -- : [3f833960-d36a-4645-8b82-42d2fc2cae80]   Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+I, [2021-02-20T09:44:14.790995 #5992]  INFO -- : [3f833960-d36a-4645-8b82-42d2fc2cae80]   Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-02-20T09:44:14.792137 #5992]  INFO -- : [3f833960-d36a-4645-8b82-42d2fc2cae80] Completed 404 Not Found in 7ms (Views: 6.9ms | Allocations: 1289)
+I, [2021-02-20T09:50:04.867403 #5992]  INFO -- : [5af2d79f-2597-40d1-8f36-97cc26efe14b] Started GET "/customer" for 172.19.0.1 at 2021-02-20 09:50:04 +0000
+I, [2021-02-20T09:50:05.060260 #5992]  INFO -- : [5af2d79f-2597-40d1-8f36-97cc26efe14b] Processing by Customer::TopController#index as HTML
+I, [2021-02-20T09:50:05.063954 #5992]  INFO -- : [5af2d79f-2597-40d1-8f36-97cc26efe14b]   Rendering errors/not_found.html.erb within layouts/customer
+I, [2021-02-20T09:50:05.066085 #5992]  INFO -- : [5af2d79f-2597-40d1-8f36-97cc26efe14b]   Rendered errors/not_found.html.erb within layouts/customer (Duration: 0.1ms | Allocations: 5)
+I, [2021-02-20T09:50:05.069105 #5992]  INFO -- : [5af2d79f-2597-40d1-8f36-97cc26efe14b]   Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+I, [2021-02-20T09:50:05.070220 #5992]  INFO -- : [5af2d79f-2597-40d1-8f36-97cc26efe14b]   Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-02-20T09:50:05.071457 #5992]  INFO -- : [5af2d79f-2597-40d1-8f36-97cc26efe14b] Completed 404 Not Found in 9ms (Views: 8.4ms | Allocations: 935)
+I, [2021-02-20T09:50:08.057831 #5992]  INFO -- : [1b9b0ed2-0042-408f-b0f7-c4bd8d35e7d6] Started GET "/admin" for 172.19.0.1 at 2021-02-20 09:50:08 +0000
+I, [2021-02-20T09:50:08.149715 #5992]  INFO -- : [1b9b0ed2-0042-408f-b0f7-c4bd8d35e7d6] Processing by Admin::TopController#index as HTML
+I, [2021-02-20T09:50:08.152796 #5992]  INFO -- : [1b9b0ed2-0042-408f-b0f7-c4bd8d35e7d6]   Rendering admin/top/index.html.erb within layouts/admin
+I, [2021-02-20T09:50:08.154093 #5992]  INFO -- : [1b9b0ed2-0042-408f-b0f7-c4bd8d35e7d6]   Rendered admin/top/index.html.erb within layouts/admin (Duration: 0.1ms | Allocations: 6)
+I, [2021-02-20T09:50:08.156577 #5992]  INFO -- : [1b9b0ed2-0042-408f-b0f7-c4bd8d35e7d6]   Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+I, [2021-02-20T09:50:08.157929 #5992]  INFO -- : [1b9b0ed2-0042-408f-b0f7-c4bd8d35e7d6]   Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+I, [2021-02-20T09:50:08.159751 #5992]  INFO -- : [1b9b0ed2-0042-408f-b0f7-c4bd8d35e7d6] Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 937)
+I, [2021-02-20T09:50:15.072125 #5992]  INFO -- : [163b657d-7de1-4158-8028-39163ed77059] Started GET "/xyz" for 172.19.0.1 at 2021-02-20 09:50:15 +0000
+F, [2021-02-20T09:50:15.097735 #5992] FATAL -- : [163b657d-7de1-4158-8028-39163ed77059]   
+[163b657d-7de1-4158-8028-39163ed77059] ActionController::RoutingError (No route matches [GET] "/xyz"):
+[163b657d-7de1-4158-8028-39163ed77059]   
+[163b657d-7de1-4158-8028-39163ed77059] actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[163b657d-7de1-4158-8028-39163ed77059] actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[163b657d-7de1-4158-8028-39163ed77059] railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+[163b657d-7de1-4158-8028-39163ed77059] railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+[163b657d-7de1-4158-8028-39163ed77059] activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[163b657d-7de1-4158-8028-39163ed77059] activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+[163b657d-7de1-4158-8028-39163ed77059] activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+[163b657d-7de1-4158-8028-39163ed77059] railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+[163b657d-7de1-4158-8028-39163ed77059] actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[163b657d-7de1-4158-8028-39163ed77059] actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[163b657d-7de1-4158-8028-39163ed77059] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[163b657d-7de1-4158-8028-39163ed77059] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[163b657d-7de1-4158-8028-39163ed77059] activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[163b657d-7de1-4158-8028-39163ed77059] actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[163b657d-7de1-4158-8028-39163ed77059] actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+[163b657d-7de1-4158-8028-39163ed77059] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[163b657d-7de1-4158-8028-39163ed77059] actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+[163b657d-7de1-4158-8028-39163ed77059] railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+[163b657d-7de1-4158-8028-39163ed77059] puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+[163b657d-7de1-4158-8028-39163ed77059] puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+[163b657d-7de1-4158-8028-39163ed77059] puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+[163b657d-7de1-4158-8028-39163ed77059] puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+[163b657d-7de1-4158-8028-39163ed77059] puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2021-02-20T09:50:15.162504 #5992]  INFO -- : [163b657d-7de1-4158-8028-39163ed77059] Processing by ErrorsController#not_found as HTML
+I, [2021-02-20T09:50:15.164758 #5992]  INFO -- : [163b657d-7de1-4158-8028-39163ed77059]   Rendering errors/not_found.html.erb within layouts/staff
+I, [2021-02-20T09:50:15.165666 #5992]  INFO -- : [163b657d-7de1-4158-8028-39163ed77059]   Rendered errors/not_found.html.erb within layouts/staff (Duration: 0.1ms | Allocations: 5)
+I, [2021-02-20T09:50:15.166893 #5992]  INFO -- : [163b657d-7de1-4158-8028-39163ed77059]   Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+I, [2021-02-20T09:50:15.168218 #5992]  INFO -- : [163b657d-7de1-4158-8028-39163ed77059]   Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+I, [2021-02-20T09:50:15.169310 #5992]  INFO -- : [163b657d-7de1-4158-8028-39163ed77059] Completed 404 Not Found in 6ms (Views: 4.9ms | Allocations: 917)
